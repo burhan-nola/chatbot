@@ -17,7 +17,7 @@ async function getResponse() {
 
   document.getElementById("input").value = "";
 
-  let res = await fetch("http://localhost:5000/chatbot", {
+  let res = await fetch("https://nola-chatbot.vercel.app/chatbot", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
