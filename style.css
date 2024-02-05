@@ -1,0 +1,54 @@
+#chat-area {
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.input {
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.submit-area {
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.box {
+  width: 96%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-color: #c4dbfe;
+  margin: 10px auto;
+}
+
+.answer {
+  background-color: aquamarine;
+}
+
+button {
+  background-color: #004089;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.logo {
+  text-align: center;
+}
+img {
+  height: auto;
+  width: 20%;
+}
