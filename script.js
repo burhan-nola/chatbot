@@ -17,6 +17,7 @@ async function getResponse() {
 
   document.getElementById("input").value = "";
 
+  //https://nola-chatbot.vercel.app/chatbot
   let res = await fetch("https://nola-chatbot.vercel.app/chatbot", {
     method: "POST",
     headers: {
@@ -31,7 +32,7 @@ async function getResponse() {
 
   if (data) {
     const answer = document.createElement("div");
-    answer.innerHTML = data;
+    answer.innerHTML = data.message;
     answer.classList.add("box", "answer");
     parentDiv.appendChild(answer);
   }
